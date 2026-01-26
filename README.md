@@ -15,8 +15,8 @@
 > [!WARNING]
 > The password used in your config file should not be any password you typically use.
 
-2. Make sure your server machine has a static IP on your local network. (e.g., 192.168.1.100, 10.0.0.20, etc.)
-3. Forward port 6792-6793 TCP/UDP to your server machine. For each additional gameserver you want to run, increase the max value by 1. (e.g., for 3 servers, forward 6792-6795)
+2. Make sure your server machine has a static IP on your local network. (e.g., 192.168.1.100)
+3. Forward port 6792 TCP/UDP to your server machine. For each additional gameserver you want to run, increase the max value by 1. (e.g., for 3 servers, forward 6792-6794)
 4. Install Echo on your server machine via [Mia's Installer](https://github.com/BL00DY-C0D3/Echo-VR-Installer/releases). Download and extract `newhostfiles.zip` onto your server machine.
 5. Copy the new `config.json` file you used to log in on your regular client machine to the PC config location on your server machine.
 
