@@ -29,5 +29,4 @@
 9. __If you are running more than 3 servers__, go to `...\ready-at-dawn-echo-arena\sourcedb\rad15\json\r14\config\netconfig_dedicatedserver.json` and update `retries` to the number of servers you are running plus 1.
 
 ### Optional, but highly recommended:
-- Create a .bat file in the same directory that contains the following line: `pwsh Echo-VR-Server-Error-Monitoring.ps1`. Create a shortcut to the .bat file and place that in the windows startup folder.
 - Ensure your router is not blocking P2P traffic to the server. This is especially necessary for hosts with UniFi hardware.
