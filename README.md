@@ -23,13 +23,9 @@
 > [!NOTE]
 > If you were given a specific region ID to use, add `&regions=REGIONID` after your password on the `serverdb_host` line of the config file. Otherwise, you can leave it out. The region ID only needs to go in the server's config file.
 
-7. Extract the contents of `gunpatch.zip` to `\...\ready_at_dawn_echo_arena\` and run `patch.bat`.
-8. Put `dbgcore.dll` and `pnsradgameserver.dll` in the `\...\ready_at_dawn_echo_arena\bin\win10\` directory. Replace any duplicate files.
-9. Download the server monitor to auto-restart in the event of a crash [here](https://github.com/marshmallow-mia/Echo-VR-Server-Error-Monitoring). Edit the file and customize it before running. 
-
-> [!TIP]
-> Ensure you've installed PowerShell 7, and allowed .ps1 execution on your machine by running `Set-ExecutionPolicy Bypass` in an admin terminal.
-
+6. Extract the contents of `gunpatch.zip` to `\...\ready_at_dawn_echo_arena\` and run `patch.bat`.
+7. Put `dbgcore.dll` and `pnsradgameserver.dll` in the `\...\ready_at_dawn_echo_arena\bin\win10\` directory. Replace any duplicate files.
+8. Download the server monitor to auto-restart in the event of a crash [here](https://github.com/marshmallow-mia/Echo-VR-Server-Error-Monitoring).
 9. __If you are running more than 3 servers__, go to `...\ready-at-dawn-echo-arena\sourcedb\rad15\json\r14\config\netconfig_dedicatedserver.json` and update `retries` to the number of servers you are running plus 1.
 
 ### Optional, but highly recommended:
