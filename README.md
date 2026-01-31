@@ -18,7 +18,7 @@
 2. Set your server machine's connection to a private network in Settings > Network & Internet > Properties > Private Network
 3. Give your server machine has a static IP on your local network. (e.g., 192.168.1.100, 10.0.0.100, etc.)
 
-> [!WARNING]
+> [!TIP]
 > Check if your IP address is behind a CGNAT. (See google/chatgpt for details)
 >
 > If you are behind a CGNAT, skip step 4, but have a domain/tunnel service ready to connect. (playit.gg, cloudflare, etc.)
