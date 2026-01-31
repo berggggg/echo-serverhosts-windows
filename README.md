@@ -35,7 +35,12 @@
 7. Extract the contents of `gunpatch.zip` to `\...\ready_at_dawn_echo_arena\` and run `patch.bat`.
 8. Put `dbgcore.dll` and `pnsradgameserver.dll` in the `\...\ready_at_dawn_echo_arena\bin\win10\` directory. Replace any duplicate files.
 9. Download the server monitor to auto-restart in the event of a crash [here](https://github.com/EchoTools/Echo-VR-Server-Error-Monitoring-Windows/tree/main).
-10. __If you are running more than 3 servers__, go to `...\ready-at-dawn-echo-arena\sourcedb\rad15\json\r14\config\netconfig_dedicatedserver.json` and update `retries` to the number of servers you are running plus 1.
+10. On the first launch, check the echovr console window for a link code. You will only need to link your server once.
+
+
+### Important things to note:
+__If you are running more than 3 servers__, go to `...\ready-at-dawn-echo-arena\sourcedb\rad15\json\r14\config\netconfig_dedicatedserver.json` and update `retries` to the number of servers you are running plus 1.
+
 
 ### Optional, but highly recommended:
 - Ensure your router is not blocking P2P traffic to the server. This is especially necessary for hosts with UniFi hardware.
