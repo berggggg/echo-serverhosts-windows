@@ -1,5 +1,8 @@
 # Windows Server Host Setup
-1. On your usual client machine (different from your intended server machine), navigate to `C:\Program Files\Oculus\Software\Software\ready-at-dawn-echo-arena\_local\config.json` (for PC) OR `/sdcard/readyatdawn/config.json` (for Quest). Replace the contents of the config file with the following, and update it with your own information:
+1. On your usual client machine (different from your intended server machine), navigate to:
+`C:\Program Files\Oculus\Software\Software\ready-at-dawn-echo-arena\_local\config.json` (for PC), OR
+`/sdcard/readyatdawn/config.json` (for Quest).
+Replace the contents of the config file with the following, and update it with your own information:
 ```
 {
     "apiservice_host":  "http://g.echovrce.com:80/api",
