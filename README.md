@@ -25,7 +25,8 @@
 > Check if your IP address is behind a CGNAT. (See google/chatgpt for details)
 > <br>If you are behind a CGNAT, skip the port forwarding step, but have a domain/tunnel service ready to connect. (playit.gg, cloudflare, etc.)
 
-4. Forward port 6792 TCP/UDP to your server machine. For each additional gameserver you want to run, increase the max value by 1. (e.g., for 3 servers, forward 6792-6794)
+4. Forward port 6792 TCP/UDP to your server machine. For each additional gameserver you want to run, increase the max value by 1.
+<br>(e.g., for 3 servers, forward 6792-6794)
 5. Install Echo on your server machine via [Mia's Installer](https://github.com/BL00DY-C0D3/Echo-VR-Installer/releases). Download and extract the [updated hosting files](https://github.com/user-attachments/files/24868223/newhostfiles.zip) onto your server machine.
 6. Copy the new `config.json` file you used to log in on your regular client machine to the PC config location on your server machine.
 
