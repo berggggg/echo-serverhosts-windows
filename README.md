@@ -20,6 +20,7 @@
 
 > [!WARNING]
 > Check if your IP address is behind a CGNAT. (See google/chatgpt for details)
+>
 > If you are behind a CGNAT, skip step 4, but have a domain/tunnel service ready to connect. (playit.gg, cloudflare, etc.)
 
 4. Forward port 6792 TCP/UDP to your server machine. For each additional gameserver you want to run, increase the max value by 1. (e.g., for 3 servers, forward 6792-6794)
