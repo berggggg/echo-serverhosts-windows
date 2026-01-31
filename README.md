@@ -21,8 +21,7 @@
 5. Copy the new `config.json` file you used to log in on your regular client machine to the PC config location on your server machine.
 
 > [!NOTE]
-> If you were given a specific region ID to use, add `&regions=REGIONID` after your password on the `serverdb_host` line of the config file. Otherwise, you can leave it out. The region ID only needs to go in the server's config file.
-
+> If you were given a specific region ID to use, add `&regions=REGIONID` after your password on the `serverdb_host` line of the config file. Otherwise, you can leave it out.
 6. Extract the contents of `gunpatch.zip` to `\...\ready_at_dawn_echo_arena\` and run `patch.bat`.
 7. Put `dbgcore.dll` and `pnsradgameserver.dll` in the `\...\ready_at_dawn_echo_arena\bin\win10\` directory. Replace any duplicate files.
 8. Download the server monitor to auto-restart in the event of a crash [here](https://github.com/marshmallow-mia/Echo-VR-Server-Error-Monitoring).
